@@ -1,0 +1,66 @@
+Applikasi ketika di jalankan akan di arahkan ke homepage dan akan terdapat 
+1 dropdown dan 1 button dimana ini akan mewakilkan setiap activity ketika 
+button di tekan
+
+Berikut ini adalah task yang berhasil di implementasikan :
+
+1. "RecyclerView" :
+   - bisa mengubah recyclerView menggunakan grid atau linear secara realtime
+
+2. "App bar / ActionBar / ToolBar" :
+   - ketika icon di tekan akan muncul TOAST
+
+3. "Navigation Drawer" :
+   - ketika icon di tekan maka akan mewakilkan setiap fragmentnya
+
+4. "Bottom Navigation" :
+   - ketika icon di tekan maka akan mewakilkan setiap fragmentnya
+
+5. "Tab Layout" :
+   - anda bisa mengkilik untuk berpindah fragment
+   - anda bisa menggesernya ke kanan untuk berpindah ke fragment kedua dan ke kiri untuk
+     berpindah ke fragment pertama 
+
+6. "Json API dan Retrofit"
+   - hanya akan menampilkan data json saja tetapi jika anda merubah di bagian package 
+     jsonAndRetrofitApi di file SimpleApi.kt pada @GET("posts/1") jika di acak contoh ("psts/1")
+     akan menampilkan text 404, ini berlaku juga kepada package jsonAndRetrofitUtils/Constants
+
+7. "View Model"
+   - tekan panah atas untuk menambahkan angka dan panah bawah untuk mengurangi angka, kemudian 
+     nyalakan rotasi layar dan putar ini akan membuat angkanya tetap stabil 
+
+8. "SharedPreference"
+   - Jika anda klik login sampai berpindah halaman dan tutup applikasi buka kembali akan memulai
+     ulang dari home page tetapi jika anda membuka kembali "SharedPreference" maka akan menjadi
+     halaman atau page atau activity yang terakhir di buka 
+
+9. "Animation"
+   - akan terdapat banyak button yang mengimplementasikan animasinya berdasarkan tombol tersebut
+
+10. "Brain Trainer Apps"
+   - akan terdapat permainan hitung penjumlahan selama 50 detik untuk melatih kecepatan 
+     menghitung
+
+11. "Room"
+   - anda bisa membuat catatan anda sendiri dan ini sudah menggunakan CRUD(Create, Read, Update 
+     dan Delete)
+
+12. "Alaram Manager"
+   - Simulasi alaram sederhana yang bisa berjalan bahkan ketika applikasinya di tutup kemudian 
+     sudah termasuk nada dering 
+
+13. "Work Manager"
+   - simulasi popup statusbar dan akan terdapat looping sebanyak 1 sampai 99 angka, ini 
+     mensimulasikan applikasi seperti pemutar musik yang jika di tutup applikasinya akan ada 
+     status bar selama musik itu berjalan
+
+Catatan
+
+- untuk Alaram Manager sudah menggunakan nada dering dan bisa di tutup juga applikasinya kemudian
+  akan ternotifikasi notifnya pada status bar perangkat android
+- Untuk Json API dan Retrofit di AVD akan terkena error OKHTTP dan membaca penggunakan internet 
+  pada AndroidManifest.xml tidak terdeteksi tetapi jika di install di perangkat android tidak 
+  terjadi masalah saya tidak mengetahui kendala ini karena error selalu merujuk pada kode program
+  <uses-permission android:name="android.permission.INTERNET" /> yang sudah di implementasikan, 
+  mungkin bugs di AVD saya

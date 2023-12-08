@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="RecyclerView">
+        <item>R</item>
+        <item>e</item>
+        <item>c</item>
+        <item>y</item>
+        <item>c</item>
+        <item>l</item>
+        <item>e</item>
+        <item>r</item>
+        <item>V</item>
+        <item>i</item>
+        <item>e</item>
+        <item>w</item>
+    </string-array>
+</resources>

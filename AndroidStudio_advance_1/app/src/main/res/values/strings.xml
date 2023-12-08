@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="app_bar_actionbar_toolbar">App bar / ActionBar / ToolBar</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="tab_layout">Tab Layout</string>
+    <string name="json_api_dan_retrofit">Json API dan Retrofit</string>
+    <string name="view_model">View Model</string>
+    <string name="sharedpreference">SharedPreference</string>
+    <string name="animation">Animation</string>
+    <string name="brain_trainer_apps">Brain Trainer Apps</string>
+    <string name="room">Room</string>
+    <string name="alaram_manager">Alaram Manager</string>
+    <string name="work_manager">Work Manager</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="gridlayout">GridLayout</string>
+    <string name="kembali">Kembali</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homes_bottom_navigation">Homes Bottom navigation</string>
+    <string name="settings_bottom_navigation">settings bottom navigation</string>
+    <string name="messages_bottom_navigation">messages bottom navigation</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="slide_down">Slide Down</string>
+    <string name="slide_up">Slide Up</string>
+    <string name="bounce">Bounce</string>
+    <string name="rotate">Rotate</string>
+    <string name="animations">Animations</string>
+    <string name="ini_adalah_halaman_login">INI ADALAH HALAMAN LOGIN</string>
+    <string name="login">login</string>
+    <string name="ini_halama_menu">INI HALAMA MENU</string>
+    <string name="logout">logout</string>
+</resources>
